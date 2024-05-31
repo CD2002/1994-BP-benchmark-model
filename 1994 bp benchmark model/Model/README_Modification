@@ -1,0 +1,33 @@
+README_Modification:
+
+If you modify these data in any way, document your modification here,
+and if you pass these data on, include this notice with these data.
+
+Original BP distribution for software.seg.org, Joe Dellinger
+Sat Feb 23 00:20:10 CST 2008
+--------------------------------------------------------------------------------------------------------------------------------
+Processing steps are as follows:
+
+1.Clipping and resampling model
+
+Origin model (you can download at https://wiki.seg.org/wiki/1994_BP_statics_benchmark_model):
+    X range:     0m to 50000m  (10001 traces)
+    Z range: -1500m to  4500m  (1200 samples)
+    dx = dz = 5 m
+Processed model:
+    X range:     2500m to 24000m  (861 traces)
+    Z range:     2100m to  4500m  (241 samples)
+    dx = 25 m, dz = 10 m
+
+Although the "real" dx is 25m, we set it to 10m in the numerical experiment (velocity model is same)
+
+2.numerical processing
+
+*Reduce the speed by half
+*Set the maximum speed to 2411m/s
+*Set the bottom high-speed layer(Bottom ten layers of grid) to 3000m/s
+
+File "./truemodel.dat" shows the final model
+
+processed BP distribution for "Prismatic Wave Imaging Reveals Details of Highly Steep Structures", Dong Chen
+Sat May 31 11:35:00 CST 2024

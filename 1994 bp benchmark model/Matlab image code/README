@@ -1,0 +1,2 @@
+*"./image_plot_function.m" for velocity imaging; "./model_plot_function.m" for RTM imaging;
+*"./result_prim.dat" and "./result_pris.dat" represent the Prim-LSRTM and Pris-LSRTM results, respectively. They can be imaged using  "./model_plot_function.m" 

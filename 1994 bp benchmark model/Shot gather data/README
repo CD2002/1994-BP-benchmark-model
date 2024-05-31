@@ -1,0 +1,3 @@
+Because the total seismic data is too large, we selected some common-shot-gathers as examples.
+
+If you want to get the full seismic data, you can generate it using the given velocity model(../Model/truemodel.dat). All parameters (such as shot locations) are noted in the article.
